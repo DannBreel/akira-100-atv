@@ -99,7 +99,7 @@ def vogg(str=str):
             vog+=1
     return vog
 
-print(vogg(str(input())))
+print(f"o numero de vogais é {vogg(str(input()))}")
 
 
 print("\033[41m\033[97m94. Crie um procedimento que receba uma lista e exiba seus elementos um por linha, junto do índice correspondente.\033[0m")
@@ -108,5 +108,8 @@ print("\033[41m \033[0m")
 def lili(lis):
     for i in range(len(lis)):
         print(f"{lis[i]}, indice = {i+1}")
+
+wx78=["i've been","through the desert","on a horse","with no name"]
+lili(wx78)
 
 print("\033[41m\033[1m\033[97m=====================================\033[0m")
